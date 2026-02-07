@@ -1,0 +1,12 @@
+name: VaultEco
+version: '1.0-SNAPSHOT'
+main: org.com.VaultEco.VaultEconomy
+depend: [Vault]
+api-version: '1.21'
+commands:
+  link-account:
+    description: Links the Minecraft account to the Discord bot using the Discord ID
+  verified-list:
+    description: Show the Discord IDs Which Connect to Mc
+  unlink:
+    description: Unlink The Discord
